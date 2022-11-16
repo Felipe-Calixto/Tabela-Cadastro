@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+#tittle-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    margin-top: 5px;
+    background-color: rgb(0, 200, 255);
+    color: white;
+    font-size: 28px;
+    box-shadow: 0px 0px 64px 26px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 0px 0px 64px 26px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 0px 0px 64px 26px rgba(0,0,0,0.75) inset;
+}
+
+#info-conteiner {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#info-box {
+    box-shadow: 0px 0px 5px 3px rgba(170,170,176,0.75);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(170,170,176,0.75);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(170,170,176,0.75);
+    height: auto;
+    min-height: 350px;
+    width: 70%;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#bnt-cadastrar {
+    padding: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 70, 90);
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(0, 70, 90);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#bnt-cadastrar:hover {
+    transition: .3s;
+    background-color: rgb(0, 70, 90);
+    color: white;
+}
+
+.span-fixed {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    color: white;
+    width: 30px;
+    background-color: rgb(0, 200, 255);
+    box-shadow: 0px 0px 26px 6px rgba(8,8,8,0.75) inset;
+    -webkit-box-shadow: 0px 0px 26px 6px rgba(8,8,8,0.75) inset;
+    -moz-box-shadow: 0px 0px 26px 6px rgba(8,8,8,0.75) inset;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+#fixed-name {
+    width: 20%;
+}
+
+#fixed-email {
+    width: 20%;
+}
+
+#fixed-cell {
+    width: 20%;
+}
+
+#fixed-city {
+    width: 20%;
+}
+
+#fixed-action {
+    width: 18%;
+}
+
+#saves-conteiner p{
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+.span {
+    display: inline-block;
+    font-size: 14px;
+    padding: 2px;
+    color: black;
+    width: 30px;
+    border-left: 1px solid black;
+}
+
+.add-name {
+    border: none;
+    width: 20%;
+}
+
+.add-email {
+    width: 20%;
+}
+
+.add-cell {
+    width: 20%;
+}
+
+.add-city {
+    width: 20%;
+}
+
+.add-action {
+    width: 18%;
+}
