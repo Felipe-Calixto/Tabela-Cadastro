@@ -10,6 +10,20 @@
     referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div id="cadastro-conteiner" class="hide">
+        <table>
+            <tr>
+                <td><input type="text" id="name-input" placeholder="Nome"></td>
+                <td><input type="email" id="email-input" placeholder="E-mail"></td>
+            </tr>
+            <tr>
+                <td><input type="number" id="cell-input" placeholder="Numero Celular"></td>
+                <td><input type="text" id="city-input" placeholder="Cidade"></td>
+            </tr>
+        </table>
+        <button id="bnt-confirmar">Confirmar</button>
+        <button id="bnt-cancel">Cancelar</button>
+    </div>
     <div id="tittle-conteiner">
         <h1>Cadastro</h1>
     </div>
@@ -26,24 +40,21 @@
                 </p>
             </div>
             <div id="saves-conteiner">
-                <p>
-                    <span class="span add-name">Nome</span>
-                    <span class="span add-email">E-mail</span>
-                    <span class="span add-cell">Celular</span>
-                    <span class="span add-city">Cidade</span>
-                    <span class="span add-action">Ação</span>
-                </p>
-                <p>
-                    <span class="span add-name">Nome</span>
-                    <span class="span add-email">E-mail</span>
-                    <span class="span add-cell">Celular</span>
-                    <span class="span add-city">Cidade</span>
-                    <span class="span add-action">Ação</span>
-                </p>
-
+                <div class="item-list">
+                    <p class="paragraf">
+                        <span class="span add-name">Nome</span>
+                        <span class="span add-email">E-mail</span>
+                        <span class="span add-cell">Celular</span>
+                        <span class="span add-city">Cidade</span>
+                        <button class="bnt-edit"><i class="fa-solid fa-pen-to-square"></i></button>
+                        <button class="bnt-remove"><i class="fa-solid fa-user-xmark"></i></button>
+                    </p>
+                </div>
+            
             </div>
         </div>
     </div>
+    
     
     <script src="js/index.js"></script>
 </body>
