@@ -85,6 +85,15 @@ bntCancel.addEventListener("click", ()=> {
     cadastro.classList.toggle("hide");
 });
 
+document.addEventListener("click", (event)=> {
+    let target = event.target;
+    let father = target.closest(".item-list");
+
+    if(target.classList.contains("bnt-remove") || target.classList.contains("fa-user-xmark")) {
+        father.remove();
+    }
+});
+
 
 
 
